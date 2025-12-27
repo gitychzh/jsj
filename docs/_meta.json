@@ -12,5 +12,16 @@
   {
     "text": "API",
     "link": "https://rspress.dev/api/index.html"
-  }
+  },
+    {
+        "text": "计算机主页",
+        "link": "/rspressPage/",
+        "activeMatch": "^/rspressPage/"
+        
+    },
+    {
+        "text": "博客首页",
+        "link": "https://223722.xyz/"
+        
+    }
 ]
