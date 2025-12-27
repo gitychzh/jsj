@@ -1,0 +1,52 @@
+name: Build rspress and sync to hskt1/source/jsj
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout autoxjs_docs
+      - name: Checkout autoxjs_docs
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Build rspress (output: ./jsj)
+      - name: Build rspress
+        run: npm run build
+
+      # 5. Clone hskt
+      - name: Clone hskt repo
+        run: |
+          git clone https://x-access-token:${{ secrets.hskt_token }}@github.com/gitychzh/hskt.git
+
+      # 6. Sync rspress output to hskt/source/jsj
+      - name: Sync rspress output
+        run: |
+          rm -rf hskt/source/jsj
+          mkdir -p hskt/source/jsj
+          cp -r jsj/* hskt/source/jsj/
+
+      # 7. Commit & push to hskt
+      - name: Commit and push changes
+        run: |
+          cd hskt
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add source/jsj
+          git commit -m "chore(rspress): sync static site from autoxjs_docs" || echo "No changes to commit"
+          git push
