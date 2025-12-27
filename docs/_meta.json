@@ -15,8 +15,8 @@
   },
     {
         "text": "计算机主页",
-        "link": "/rspressPage/",
-        "activeMatch": "^/rspressPage/"
+        "link": "/jsj/",
+        "activeMatch": "^/jsj/"
         
     },
     {
