@@ -19,8 +19,8 @@
     },
     {
         "type": "dir",
-        "name": "c#",
-        "label": "c#",
+        "name": "csharp",
+        "label": "csharp",
         "collapsible": true
     }
 ]

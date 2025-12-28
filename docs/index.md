@@ -18,8 +18,8 @@ hero:
           text: 博客搭建
           link: ./计算机/博客教程/使用hexo搭建博客教程.html
         - theme: alt
-          text: c#相关gi
-          link: ./计算机/c#/
+          text: c#相关9
+          link: ./计算机/csharp
        
 
 features:
