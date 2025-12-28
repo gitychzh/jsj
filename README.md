@@ -1,29 +1,3 @@
-# Rspress website
+## 这个是博客红薯课堂的子站 计算机相关知识的教程
 
-## Setup
 
-Install the dependencies:
-
-```bash
-npm install
-```
-
-## Get started
-
-Start the dev server:
-
-```bash
-npm run dev
-```
-
-Build the website for production:
-
-```bash
-npm run build
-```
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```

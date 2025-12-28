@@ -19,6 +19,9 @@ hero:
         - theme: alt
           text: v7 文档
           link: https://autox-doc.vercel.app/
+        - theme: alt
+          text: 我是测试标题
+          link: https://autox-doc.vercel.app/
 
 features:
     - title: "AutoX.js 项目工程化"
@@ -28,7 +31,7 @@ features:
     - title: "vscode 插件"
       details: 代码提示，运行脚本、项目等 (魔改版支持布局分析)。
       link: https://github.com/ozobiozobi/Auto.js-VSCode-Extension/releases/tag/1.110.2
-      icon: 🎨🐱‍🏍👏
+      icon: 🎨
     - title: "Rhino 引擎"
       details: 灵活、易于集成：与 Java 无缝交互，可在运行时修改对象、添加方法，或者创建新的类型。
       link: https://github.com/mozilla/rhino

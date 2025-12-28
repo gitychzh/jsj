@@ -31,3 +31,31 @@ features:
   - title: Providing multiple custom capabilities
     details: Through its extension mechanism, you can easily extend theme UI and build process.
     icon: 🔥
+下面是使用rspress创建博客之后的基本步骤，从npm create rspress@latest开始之后执行如下的代码即可。
+    ## Setup
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+## Get started
+
+Start the dev server:
+
+```bash
+npm run dev
+```
+
+Build the website for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
