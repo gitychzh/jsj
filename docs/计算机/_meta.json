@@ -16,5 +16,11 @@
         "name": "git相关",
         "label": "git相关",
         "collapsible": true
+    },
+    {
+        "type": "dir",
+        "name": "c#",
+        "label": "c#",
+        "collapsible": true
     }
 ]
