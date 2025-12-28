@@ -16,10 +16,14 @@ hero:
           link: ./计算机/git相关/git教程
         - theme: alt
           text: 博客搭建
-          link: ./计算机/博客教程/使用hexo搭建博客教程.html
+          link: ./计算机/博客教程/使用hexo搭建博客教程
         - theme: alt
           text: c#相关
-          link: ./计算机/csharp/cs第一课
+          link: ./计算机/csharp/cs第一课   
+        - theme: alt
+          text: rsPress官网
+          link: https://rsPress.rs
+          
        
 
 features:
@@ -58,9 +62,4 @@ features:
       details: 高中生物相关知识，少量涉及竞赛相关的知识
       link: ttps://223722.xyz/other
       icon: 🎶
-
-    - title: "rsPress官网"
-      details: 创建rsPress博客，文档站 ,API手册
-      link: https://rsPress.rs
-      icon: 🚀
 ---
