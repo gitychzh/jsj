@@ -59,3 +59,10 @@ Preview the production build locally:
 ```bash
 npm run preview
 ```
+[
+    {
+        "type": "file",
+        "name": "index.md",
+        "label": "index1"
+    }
+]

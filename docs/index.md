@@ -18,7 +18,7 @@ hero:
           text: 博客搭建
           link: ./计算机/博客教程/使用hexo搭建博客教程.html
         - theme: alt
-          text: csharp相关10
+          text: csharp相关11
           link: ./计算机/csharp
        
 
