@@ -13,13 +13,13 @@ hero:
           link: ./计算机/overview
         - theme: alt
           text: git教程
-          link: ./计算机/git相关/git教程.html
+          link: ./计算机/git相关/git教程
         - theme: alt
           text: 博客搭建
-          link: ./计算机/使用hexo搭建博客教程.html
+          link: ./计算机/博客教程/使用hexo搭建博客教程.html
         - theme: alt
-          text: 文档(BMX)
-          link: http://bmxwzsq.kesug.com/v1/
+          text: c#相关
+          link: ./计算机/c#
        
 
 features:
