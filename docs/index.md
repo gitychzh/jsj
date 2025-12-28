@@ -16,12 +16,7 @@ hero:
         - theme: alt
           text: 文档(BMX)
           link: http://bmxwzsq.kesug.com/v1/
-        - theme: alt
-          text: v7 文档
-          link: https://autox-doc.vercel.app/
-        - theme: alt
-          text: 我是测试标题
-          link: https://autox-doc.vercel.app/
+       
 
 features:
     - title: "AutoX.js 项目工程化"
