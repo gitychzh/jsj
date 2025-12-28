@@ -8,10 +8,10 @@ export default defineConfig({
   outDir: 'jsj',
   base: '/jsj/',
   title: '红薯课堂_计算机',
-  icon: '/logo_红薯课堂.png',
+  icon: '/img/logo_红薯课堂.png',
   logo: {
-    light: '/logo_红薯课堂.png',
-    dark: '/烤红薯.png',
+    light: '/img/logo_红薯课堂.png',
+    dark: '/img/烤红薯.png',
   },
   
 });

@@ -1,17 +1,17 @@
 [
     {
         "type": "file",
-        "name": "使用hexo搭建博客教程w.md",
-        "label": "使用hexo搭建博客教程label"
+        "name": "使用hexo搭建博客教程.md",
+        "label": "使用hexo搭建博客教程"
     },
      {
         "type": "file",
         "name": "修改主题butterfly.md",
-        "label": "修改主题butterflylabel"
+        "label": "修改主题butterfly"
     },
      {
         "type": "file",
         "name": "域名绑定cloudflarePages教程.md",
-        "label": "域名绑定cloudflarePages教程label"
+        "label": "域名绑定cloudflarePages教程"
     }
 ]
