@@ -1,12 +1,7 @@
 [
     {
         "type": "file",
-        "name": "git教程.md",
-        "label": "git教程"
-    },
-     {
-        "type": "file",
-        "name": "gitee的仓库镜像管理功能教程.md",
-        "label": "gitee的仓库镜像管理功能教程"
+        "name": "index.md",
+        "label": "index1"
     }
 ]
