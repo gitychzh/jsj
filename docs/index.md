@@ -19,7 +19,7 @@ hero:
           link: ./计算机/博客教程/使用hexo搭建博客教程.html
         - theme: alt
           text: c#相关gi
-          link: ./计算机/c#
+          link: ./计算机/c#/
        
 
 features:
