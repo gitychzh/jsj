@@ -9,8 +9,8 @@ hero:
     actions:
     
         - theme: alt
-          text: let's go to learn
-          link: ./计算机/overview
+          text: let's go to learn修改1
+          link: ./computer/overview
         - theme: alt
           text: git教程
           link: ./计算机/git相关/git教程
