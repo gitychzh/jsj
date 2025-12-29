@@ -21,7 +21,7 @@ git reset --hard 8c00529
 ## 回退到上一个节点，或者上上个节点
 git reset --hard head^
 git reset --hard head^^
-## 本地新建分支，以上操作必须先建立分支，保留主分支master的完整性。
+## 本地新建分支，以上操作必须先建立分支，保留主分支master的完整性。origin(起源)
 git branch feature/test-domain
 ## 切换到新分支
 git checkout feature/test-domain
