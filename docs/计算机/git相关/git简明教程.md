@@ -65,3 +65,8 @@ git branch -D backupBranch
 ```
 大写-D强制删除分支。
 注:必须切换到别的分支才能删除，不能删除此时所在的分支。
+## 查看本地和远程所有分支
+```bash
+
+git branch -a
+```
