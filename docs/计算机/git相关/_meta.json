@@ -13,5 +13,10 @@
         "type": "file",
         "name": "gitee的仓库镜像管理功能教程.md",
         "label": "gitee的仓库镜像管理功能教程"
+    },
+     {
+        "type": "file",
+        "name": "git简明教程.md",
+        "label": "git简明教程"
     }
 ]
